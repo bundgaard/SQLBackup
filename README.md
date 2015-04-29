@@ -12,7 +12,7 @@ The conf file 127005.conf can handle '#' as comments.
 So to deactivate a line just put a # in front.
 
 if you want to rename databases please make sure you have equal items.
-
+```
 databases=database1,database3 
 fromusername=myusername
 frompassword=mypassword
@@ -20,8 +20,8 @@ fromhost=mysqlhost1
 tohost=mysqlhost2
 tousername=username-host2
 topassword=password-host2
-#newdatabases=newdatabase2,newdatabase3
-
+newdatabases=newdatabase2,newdatabase3
+```
 USAGE:
 
 * Add two SSH tunnels or change from local to run and add SSH keys on the servers.
